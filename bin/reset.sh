@@ -5,4 +5,4 @@ WORKDIR=$(pwd)
 cd "$(dirname "$0")"
 
 docker-compose down
-rm -rf "$WORKDIR/mysql/db-volume"
+sudo rm -rf "$WORKDIR/mysql/db-volume"
